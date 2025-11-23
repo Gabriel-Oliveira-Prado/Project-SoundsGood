@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\AtividadesController;
+use App\Http\Controllers\authController;
+Route::post('/auth', [authController::class, 'auth'])->name('login.auth');
+
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/login', [PageController::class, 'login'])->name('login');

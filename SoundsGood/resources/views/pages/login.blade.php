@@ -52,20 +52,25 @@
                             <h2>Bem-vindo de volta</h2>
                             <p>Faça login para acessar seus sons favoritos</p>
                         </div>
-                        
-                        <form class="auth-form" id="loginFormElement">
+
+                        @if ($mensagem = Session::get('erro'))
+                            {{ $mensagem }}
+                        @endif
+
+                        <form class="auth-form" id="loginFormElement" method="POST" action="{{ route('login.auth') }}">
+                            @csrf
                             <div class="form-group">
                                 <label for="loginEmail" class="form-label">
                                     <i class="fas fa-envelope"></i> Email
                                 </label>
-                                <input type="email" class="form-control" id="loginEmail" placeholder="seu@email.com" required>
+                                <input type="email" class="form-control" id="loginEmail" placeholder="seu@email.com" name= "email" required>
                             </div>
                             
                             <div class="form-group">
                                 <label for="loginPassword" class="form-label">
                                     <i class="fas fa-lock"></i> Senha
                                 </label>
-                                <input type="password" class="form-control" id="loginPassword" placeholder="••••••••" required>
+                                <input type="password" class="form-control" id="loginPassword" placeholder="••••••••" name="password" required>
                             </div>
                             
                             <div class="form-remember">
@@ -95,26 +100,26 @@
                             <p>Crie sua conta e descubra a tranquilidade</p>
                         </div>
                         
-                        <form id="FMCadastro_Usuario">
+                        <form id="FMCadastro_Usuario" method ="POST" action="{{route('users.store') }}">
                             <div class="form-group">
                                 <label for="registerName" class="form-label">
                                     <i class="fas fa-user"></i> Nome Completo
                                 </label>
-                                <input type="text" class="form-control" id="registerName" placeholder="Seu nome" required>
+                                <input type="text" class="form-control" id="registerName" placeholder="Seu nome" name ="name" required>
                             </div>
                             
                             <div class="form-group">
                                 <label for="registerEmail" class="form-label">
                                     <i class="fas fa-envelope"></i> Email
                                 </label>
-                                <input type="email" class="form-control" id="registerEmail" placeholder="seu@email.com" required>
+                                <input type="email" class="form-control" id="registerEmail" placeholder="seu@email.com" name="email"required>
                             </div>
                             
                             <div class="form-group">
                                 <label for="registerPassword" class="form-label">
                                     <i class="fas fa-lock"></i> Senha
                                 </label>
-                                <input type="password" class="form-control" id="registerPassword" placeholder="••••••••" required>
+                                <input type="password" class="form-control" id="registerPassword" placeholder="••••••••" name="password" required>
                             </div>
                             
                             <div class="form-group">
