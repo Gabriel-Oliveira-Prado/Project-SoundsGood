@@ -56,11 +56,11 @@ const exerciseImageEl = document.getElementById('exerciseImage');
 const skipBtn = document.getElementById('skipBtn');
 
 const exercises = [
-    { name: 'Rotação de Braços', duration: 30, image: 'public\img\Alongamento\alongamento ativo\braço.png' },
-    { name: 'Elevação de Joelhos', duration: 30, image: 'public\img\Alongamento\alongamento ativo\elevação de joelho.png' },
-    { name: 'Estocada Dinâmica', duration: 40, image: 'public\img\Alongamento\alongamento ativo\chute dinamico.png' },
-    { name: 'Chute Frontal Alternado', duration: 30, image: 'public\img\Alongamento\alongamento ativo\chute alternado.png' },
-    { name: 'Agachamento com Elevação de Braços', duration: 40, image: 'public\img\Alongamento\alongamento ativo\agaccha.png' }
+    { name: 'Rotação de Braços', duration: 30, image: '/img/Alongamento/alongamento ativo/braço.png' },
+    { name: 'Elevação de Joelhos', duration: 30, image: '/img/Alongamento/alongamento ativo/elevação de joelho.png' },
+    { name: 'Estocada Dinâmica', duration: 40, image: '/img/Alongamento/alongamento ativo/chute dinamico.png' },
+    { name: 'Chute Frontal Alternado', duration: 30, image: '/img/Alongamento/alongamento ativo/chute alternado.png' },
+    { name: 'Agachamento com Elevação de Braços', duration: 40, image: '/img/Alongamento/alongamento ativo/agaccha.png' }
 ];
 
 let isStretching = false;

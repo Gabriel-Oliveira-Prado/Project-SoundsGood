@@ -58,11 +58,11 @@ const exerciseImageEl = document.getElementById('exerciseImage');
 const skipBtn = document.getElementById('skipBtn');
 
 const exercises = [
-    { name: 'Alongamento de Pescoço', duration: 20, image: 'public\img\Alongamento\alongamento estatico\pescoço.jpeg' },
-    { name: 'Alongamento de Ombros', duration: 20, image: 'public\img\Alongamento\alongamento estatico\ombro.jpeg' },
-    { name: 'Alongamento de Quadríceps', duration: 25, image: 'public\img\Alongamento\alongamento estatico\quadriceps.jpeg' },
-    { name: 'Alongamento de Panturrilhas', duration: 25, image: 'public\img\Alongamento\alongamento estatico\panturilha.jpeg' },
-    { name: 'Alongamento de Costas', duration: 30, image: 'public\img\Alongamento\alongamento estatico\costas.jpeg' }
+    { name: 'Alongamento de Pescoço', duration: 20, image: '/img/Alongamento/alongamento estatico/pescoço.jpeg' },
+    { name: 'Alongamento de Ombros', duration: 20, image: '/img/Alongamento/alongamento estatico/ombro.jpeg' },
+    { name: 'Alongamento de Quadríceps', duration: 25, image: '/img/Alongamento/alongamento estatico/quadriceps.jpeg' },
+    { name: 'Alongamento de Panturrilhas', duration: 25, image: '/img/Alongamento/alongamento estatico/panturilha.jpeg' },
+    { name: 'Alongamento de Costas', duration: 30, image: '/img/Alongamento/alongamento estatico/costas.jpeg' }
 ];
 
 let isStretching = false;
