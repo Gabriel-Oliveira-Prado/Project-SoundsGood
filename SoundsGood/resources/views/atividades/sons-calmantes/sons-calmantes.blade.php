@@ -56,7 +56,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\sons\chuva.jpg" class="card-img-top" alt="Janela molhada com semáforo">
+                    <img src="/img/sons/chuva.jpg" class="card-img-top" alt="Janela molhada com semáforo">
                     <a href="/sons-Chuva-Leve" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -72,7 +72,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\sons\floresta.jpg" class="card-img-top" alt="Floresta tropical">
+                    <img src="/img/sons/floresta.jpg" class="card-img-top" alt="Floresta tropical">
                     <a href="/sons-Floresta-Tropical" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -88,7 +88,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\sons\mar.jpg" class="card-img-top" alt="Ondas do mar">
+                    <img src="/img/sons/mar.jpg" class="card-img-top" alt="Ondas do mar">
                     <a href="/sons-Ondas-Mar" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
@@ -104,7 +104,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\sons\neve.jpg"
+                    <img src="/img/sons/neve.jpg"
                          class="card-img-top" alt="Neve caindo">
                     <a href="/sons-Flocos-Neve" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
