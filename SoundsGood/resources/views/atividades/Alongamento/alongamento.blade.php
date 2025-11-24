@@ -56,7 +56,7 @@
         <div class="col-md-6 col-lg-6">
             <div class="card activity-card h-100">
                 <div class="card-img-container">
-                    <img src="public\img\Alongamento\principal\dinamico.jpeg" class="card-img-top" alt="Alongamento dinâmico">
+                    <img src="/img/Alongamento/principal/dinamico.jpeg" class="card-img-top" alt="Alongamento dinâmico">
                     <a href="/alongamento-Dinamico" class="btn btn-cta btn-play stretched-link">
                         <i class="fa-solid fa-play"></i>
                     </a>
