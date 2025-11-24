@@ -77,11 +77,11 @@
     }
 
     const meditationSteps = [
-        { name: 'Acomode-se confortavelmente e feche os olhos.', duration: 20, image: 'public\img\meditação\controle o corpo\pessoa sentada.jpg' },
-        { name: 'Concentre-se na sua respiração. Sinta o ar entrar e sair.', duration: 45, image: 'public\img\meditação\aprenda a meditar\ar.jpg' },
-        { name: 'Observe seus pensamentos sem julgamento, deixando-os passar.', duration: 60, image: 'public\img\meditação\aprenda a meditar\mente distraida.jpg' },
-        { name: 'Sinta a calma se espalhar por todo o seu corpo.', duration: 45, image: 'public\img\meditação\controle o corpo\sinta a harmonia.jpg' },
-        { name: 'Gentilmente, traga sua atenção de volta ao ambiente.', duration: 20, image: 'public\img\meditação\controle o corpo\pessoa sentada.jpg' }
+        { name: 'Acomode-se confortavelmente e feche os olhos.', duration: 20, image: '/img/meditação/controle o corpo/pessoa sentada.jpg' },
+        { name: 'Concentre-se na sua respiração. Sinta o ar entrar e sair.', duration: 45, image: '/img/meditação/aprenda a meditar/ar.jpg' },
+        { name: 'Observe seus pensamentos sem julgamento, deixando-os passar.', duration: 60, image: '/img/meditação/aprenda a meditar/mente distraida.jpg' },
+        { name: 'Sinta a calma se espalhar por todo o seu corpo.', duration: 45, image: '/img/meditação/controle o corpo/sinta a harmonia.jpg' },
+        { name: 'Gentilmente, traga sua atenção de volta ao ambiente.', duration: 20, image: '/img/meditação/controle o corpo/pessoa sentada.jpg' }
 
     let isMeditating = false, currentStepIndex = 0, countdownInterval, stepTimeout;
 
