@@ -58,7 +58,7 @@
                         @endif
 
                         <form class="auth-form" id="loginFormElement" method="POST" action="{{ route('login.auth') }}">
-                             
+                             @csrf
                            <div class="form-group">
                                 <label for="loginEmail" class="form-label">
                                     <i class="fas fa-envelope"></i> Email
@@ -75,7 +75,7 @@
                             
                             <div class="form-remember">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                                    <input class="form-check-input" type="checkbox" id="rememberMe" name="remember">
                                     <label class="form-check-label" for="rememberMe">Lembrar-me</label>
                                 </div>
                                 <a href="#" class="forgot-password">Esqueceu a senha?</a>
@@ -101,7 +101,7 @@
                         </div>
                         
                         <form id="FMCadastro_Usuario" method ="POST" action="{{ route('users.store') }}">
-                           @csrf 
+                           {!! csrf_field() !!} 
                             <div class="form-group">
                                 <label for="registerName" class="form-label">
                                     <i class="fas fa-user"></i> Nome Completo
